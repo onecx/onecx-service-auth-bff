@@ -27,7 +27,7 @@ class ExtensionRestControllerTest extends AbstractTest {
 
     private static Stream<Arguments> generateHrefTestData() {
         return Stream.of(
-                arguments("https://dev-portal/ui?idmId=kc1", "kc1"),
+                arguments("https://dev-portal/ui?idmId=default", "default"),
                 arguments("https://dev-portal/ui?param=xxx", "kc1"));
     }
 
@@ -94,18 +94,6 @@ class ExtensionRestControllerTest extends AbstractTest {
                 .isEqualTo(ExceptionMapper.ErrorKeys.CONSTRAINT_VIOLATIONS.name());
         assertThat(dto.getDetail()).isNotNull().isEqualTo("Bad request data");
     }
-
-    //    @Test
-    //    void getConfigurationIntranetNullHostHrefTest() {
-    //        given()
-    //                .contentType(APPLICATION_JSON)
-    //                .accept(APPLICATION_JSON)
-    //                .body(new ConfigRequestDTO().idpHint(null).href("not-host-name"))
-    //                .post()
-    //                .then()
-    //                .log().all()
-    //                .statusCode(NOT_FOUND.getStatusCode());
-    //    }
 
     @Test
     void getConfigurationEmptyRequestTest() {
