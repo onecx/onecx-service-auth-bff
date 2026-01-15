@@ -1,2 +1,2 @@
-# onecx-example-custom-auth-bff
-OneCx example custom auth BFF
+# onecx-service-auth-bff
+OneCX Service Custom Auth Backend-For-Frontend
