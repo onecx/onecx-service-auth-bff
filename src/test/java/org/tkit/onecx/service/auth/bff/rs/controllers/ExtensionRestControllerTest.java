@@ -1,4 +1,4 @@
-package org.tkit.onecx.example.bff.rs.controllers;
+package org.tkit.onecx.service.auth.bff.rs.controllers;
 
 import static io.restassured.RestAssured.given;
 import static jakarta.ws.rs.core.MediaType.APPLICATION_JSON;
@@ -12,8 +12,8 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.tkit.onecx.example.bff.rs.mappers.ExceptionMapper;
-import org.tkit.onecx.example.bff.test.AbstractTest;
+import org.tkit.onecx.service.auth.bff.rs.mappers.ExceptionMapper;
+import org.tkit.onecx.service.auth.bff.test.AbstractTest;
 
 import gen.org.tkit.onecx.extensions.bff.rs.internal.model.ConfigRequestDTO;
 import gen.org.tkit.onecx.extensions.bff.rs.internal.model.ConfigResponseDTO;

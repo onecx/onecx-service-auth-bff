@@ -1,7 +1,7 @@
 app:
   name: bff
   image:
-    repository: "onecx/onecx-example-custom-auth-bff"
+    repository: "onecx/onecx-service-auth-bff"
   operator:
     keycloak:
       client:

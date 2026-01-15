@@ -1,4 +1,4 @@
-package org.tkit.onecx.example.bff.rs.controllers;
+package org.tkit.onecx.service.auth.bff.rs.controllers;
 
 import io.quarkus.test.junit.QuarkusIntegrationTest;
 

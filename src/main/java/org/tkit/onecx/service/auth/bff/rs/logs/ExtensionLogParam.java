@@ -1,4 +1,4 @@
-package org.tkit.onecx.example.bff.rs.logs;
+package org.tkit.onecx.service.auth.bff.rs.logs;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package org.tkit.onecx.example.bff.rs.controllers;
+package org.tkit.onecx.service.auth.bff.rs.controllers;
 
 import static io.restassured.RestAssured.given;
 import static jakarta.ws.rs.core.MediaType.APPLICATION_JSON;
@@ -12,7 +12,7 @@ import jakarta.inject.Inject;
 import org.eclipse.microprofile.config.Config;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
-import org.tkit.onecx.example.bff.test.AbstractTest;
+import org.tkit.onecx.service.auth.bff.test.AbstractTest;
 
 import gen.org.tkit.onecx.extensions.bff.rs.internal.model.ConfigRequestDTO;
 import io.quarkus.test.InjectMock;

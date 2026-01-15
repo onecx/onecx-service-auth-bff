@@ -1,8 +1,0 @@
-include::onecx-example-custom-auth-bff-attributes.adoc[opts=optional]
-
-== onecx-example-custom-auth-bff
-
-include::docs.adoc[opts=optional]
-
-
-include::onecx-example-custom-auth-bff-docs.adoc[opts=optional]

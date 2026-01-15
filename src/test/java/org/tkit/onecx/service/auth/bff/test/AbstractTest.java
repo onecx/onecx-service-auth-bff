@@ -1,4 +1,4 @@
-package org.tkit.onecx.example.bff.test;
+package org.tkit.onecx.service.auth.bff.test;
 
 import static com.fasterxml.jackson.databind.SerializationFeature.WRITE_DATES_AS_TIMESTAMPS;
 import static io.restassured.RestAssured.config;
@@ -9,7 +9,7 @@ import jakarta.enterprise.inject.Produces;
 import jakarta.inject.Inject;
 
 import org.eclipse.microprofile.config.Config;
-import org.tkit.onecx.example.bff.rs.controllers.ExtensionConfig;
+import org.tkit.onecx.service.auth.bff.rs.controllers.ExtensionConfig;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;

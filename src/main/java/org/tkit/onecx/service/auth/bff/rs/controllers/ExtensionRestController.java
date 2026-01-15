@@ -1,4 +1,4 @@
-package org.tkit.onecx.example.bff.rs.controllers;
+package org.tkit.onecx.service.auth.bff.rs.controllers;
 
 import java.net.URI;
 import java.util.Arrays;
@@ -13,7 +13,7 @@ import org.jboss.resteasy.reactive.RestResponse;
 import org.jboss.resteasy.reactive.server.ServerExceptionMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.tkit.onecx.example.bff.rs.mappers.ExceptionMapper;
+import org.tkit.onecx.service.auth.bff.rs.mappers.ExceptionMapper;
 import org.tkit.quarkus.log.cdi.LogService;
 
 import gen.org.tkit.onecx.extensions.bff.rs.internal.ExtensionsInternalApiService;

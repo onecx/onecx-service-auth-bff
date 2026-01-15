@@ -1,12 +1,12 @@
 apiVersion: v2
-name: onecx-example-custom-auth-bff
+name: onecx-service-auth-bff
 version: 0.0.0
 appVersion: 0.0.0
-description: Onecx example custom auth bff
+description: Onecx service auth bff
 keywords:
   - example
 sources:
-  - https://github.com/onecx/onecx-example-custom-auth-bff
+  - https://github.com/onecx/onecx-service-auth-bff
 maintainers:
   - name: Tkit Developer
     email: tkit_dev@1000kit.org

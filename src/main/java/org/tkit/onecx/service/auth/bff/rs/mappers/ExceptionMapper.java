@@ -1,4 +1,4 @@
-package org.tkit.onecx.example.bff.rs.mappers;
+package org.tkit.onecx.service.auth.bff.rs.mappers;
 
 import java.util.List;
 import java.util.Map;
