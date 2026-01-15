@@ -1,0 +1,7 @@
+include::onecx-service-auth-bff-attributes.adoc[opts=optional]
+
+= OneCX Service Custom Auth Backend For Frontend
+
+
+
+include::onecx-service-auth-bff-docs.adoc[opts=optional]

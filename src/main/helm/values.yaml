@@ -1,0 +1,8 @@
+app:
+  name: bff
+  image:
+    repository: "onecx/onecx-service-auth-bff"
+  operator:
+    keycloak:
+      client:
+        enabled: true

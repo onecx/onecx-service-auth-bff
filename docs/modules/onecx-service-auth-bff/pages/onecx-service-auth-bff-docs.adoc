@@ -1,0 +1,49 @@
+
+include::onecx-service-auth-bff-attributes.adoc[opts=optional]
+
+{docker-registry}[Link to Docker registry]
+
+== Default properties
+
+.{properties-file}
+[%collapsible]
+====
+[source,properties,subs=attributes+]
+----
+quarkus.http.auth.permission.health.paths=/q/*
+quarkus.http.auth.permission.health.policy=permit
+quarkus.http.auth.permission.config.paths=/config
+quarkus.http.auth.permission.config.policy=permit
+onecx.extension.fall-back-profile=default
+onecx.extension.profiles.default.keycloak-url=${KEYCLOAK_URL:http://localhost:8080}
+onecx.extension.profiles.default.idpHint=100
+onecx.extension.profiles.default.idmId=${KEYCLOAK_IDM_ID:default}
+onecx.extension.profiles.external.keycloak-url=${KEYCLOAK_URL_EXTERNAL:http://localhost:8080}
+onecx.extension.profiles.external.idmId=${KEYCLOAK_IDM_ID_EXTERNAL:external}
+onecx.extension.profiles.external.idpHint=200
+----
+====
+
+== Extensions
+.Extensions List
+[%collapsible]
+====
+include::onecx-service-auth-bff-extensions.adoc[opts=optional]
+====
+
+== Helm
+
+{helm-registry}[Link to Helm registry]
+
+.Default values in {helm-file}
+[source,yaml]
+----
+app:
+  name: bff
+  image:
+    repository: "onecx/onecx-service-auth-bff"
+  operator:
+    keycloak:
+      client:
+        enabled: true
+----
