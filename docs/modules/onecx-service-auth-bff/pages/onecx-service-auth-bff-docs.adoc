@@ -39,7 +39,7 @@ include::onecx-service-auth-bff-extensions.adoc[opts=optional]
 [source,yaml]
 ----
 app:
-  name: bff
+  name: auth-bff
   image:
     repository: "onecx/onecx-service-auth-bff"
   operator:
